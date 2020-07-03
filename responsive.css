@@ -1,0 +1,211 @@
+/* Tablet max-width:1000px */
+@media (max-width: 1000px) {
+
+  /* highlight */
+  .highlight {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    float: none;
+  }
+
+  .deskripsi {
+    max-width: max-content;
+  }
+
+  .wrap img {
+    width: 450px;
+    text-align: center;
+  }
+
+  /* highlight and mobile */
+  .highlight-second {
+    display: none;
+  }
+
+
+  .mobile {
+    display: block;
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(81, 232, 217, 0.255));
+  }
+
+  .container-mobile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .Bandung-mobile img,
+  .Sumbawa-mobile img,
+  .Aceh-mobile img,
+  .Magelang-mobile img {
+    max-width: 300px;
+  }
+
+  .Bandung-mobile,
+  .Sumbawa-mobile,
+  .Aceh-mobile,
+  .Magelang-mobile {
+    width: 50%;
+  }
+
+  .Aceh-mobile,
+  .Magelang-mobile {
+    margin-top: 20px;
+  }
+
+  .img-wrapper {
+    transition: all 0.7s ease;
+    padding: 0 30px;
+  }
+
+  .img-wrapper:hover {
+    transform: scale(1.1);
+  }
+
+  .Caption {
+    transition: none;
+    text-align: center;
+  }
+
+  .Caption p {
+    text-align: justify;
+    padding: 0 20px;
+  }
+
+  .Caption:hover {
+    cursor: context-menu;
+    transform: none;
+  }
+
+  /* footer */
+  .container {
+    text-align: center;
+    padding: 0 40px;
+  }
+
+  .footer-team,
+  .footer-logo,
+  .footer-info,
+  .btn-wrapper {
+    width: 50%;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    color: #fffdfd;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+}
+
+/* Phone max-width: 670px */
+@media (max-width: 750px) {
+
+  /* header */
+  .header {
+    padding: 5px 30px;
+  }
+
+  .header ul li.items {
+    width: 100%;
+    display: none;
+  }
+
+  .header ul li.items.show {
+    display: block;
+  }
+
+  .header ul li.btn {
+    display: block;
+  }
+
+  .header ul li.items:hover {
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #33ffff,
+      inset 0 0 10px #66ffff;
+  }
+
+  .header ul li.items:hover:after {
+    opacity: 0;
+  }
+
+  /* highlight */
+  .highlight {
+    padding: 30px 50px;
+  }
+
+  .highlight img {
+    width: 300px;
+  }
+
+
+  .deskripsi {
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+    max-width: max-content;
+  }
+
+  .deskripsi h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+
+  .deskripsi p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 0;
+    padding: 0 5px;
+  }
+
+
+  /* mobile */
+
+  .Bandung-mobile,
+  .Sumbawa-mobile,
+  .Aceh-mobile,
+  .Magelang-mobile {
+    width: 100%;
+  }
+
+  .img-wrapper:hover {
+    transform: none;
+  }
+
+  /* footer */
+  footer {
+    text-align: center;
+  }
+
+  .footer-logo img {
+    width: 180px;
+    height: 200px;
+  }
+
+  .btn {
+    padding: 7px 15px;
+    color: #fffdfd;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+
+  .footer-team li {
+    padding-right: 30px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .footer-team,
+  .footer-logo,
+  .footer-info,
+  .btn-wrapper {
+    width: 100%;
+  }
+}
